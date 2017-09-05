@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -maxdepth 1 -type f -not -name 'POTCAR*' -not -name 'POSCAR*' -not -name 'INCAR*' -not -name 'KPOINTS*' -not -name '*job*'  -not -name '*tar*'
